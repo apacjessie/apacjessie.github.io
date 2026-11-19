@@ -1,0 +1,59 @@
+/* Design tokens: light theme by default, dark via [data-theme="dark"] */
+:root {
+  --font-display: 'Bricolage Grotesque Variable', 'Helvetica Neue', sans-serif;
+  --font-body: 'Instrument Sans', 'Helvetica Neue', sans-serif;
+  --font-mono: 'JetBrains Mono', ui-monospace, monospace;
+
+  --color-ground: #f3f1ec;
+  --color-surface: #ffffff;
+  --color-surface-muted: #e9e6df;
+  --color-inverse: #15171c;
+  --color-ink: #15171c;
+  --color-text: #33363d;
+  --color-muted: #4f535b;
+  --color-border: #ddd9d0;
+  --color-border-strong: #cfcbc2;
+  --color-chip-border: #a8a49b;
+  --color-on-inverse: #f3f1ec;
+  --color-on-inverse-body: #d9dbe0;
+  --color-on-inverse-muted: #b9bcc4;
+  --color-inverse-border: #4a4e57;
+  --color-status: #1f9d55;
+  --color-accent: #2b4bff;
+  --color-accent-text: #2b4bff;
+  --color-accent-on-inverse: #8fa2ff;
+  --color-solid-bg: #15171c;
+  --color-solid-fg: #f3f1ec;
+
+  --container: 1200px;
+  --gutter: 24px;
+  --section-space: 104px;
+  --radius-pill: 999px;
+  --radius-contact: 28px;
+  --radius-card: 24px;
+  --radius-side: 20px;
+  --radius-media: 16px;
+
+  color-scheme: light;
+}
+
+:root[data-theme='dark'] {
+  --color-ground: #0e0f12;
+  --color-surface: #16181d;
+  --color-surface-muted: #1f2128;
+  --color-inverse: #181a20;
+  --color-ink: #edebe6;
+  --color-text: #c5c8cf;
+  --color-muted: #9a9ea6;
+  --color-border: #2a2d34;
+  --color-border-strong: #2a2d34;
+  --color-chip-border: #3a3d45;
+  --color-on-inverse: #edebe6;
+  --color-on-inverse-body: #c5c8cf;
+  --color-on-inverse-muted: #9a9ea6;
+  --color-inverse-border: #3a3d45;
+  --color-accent-text: #8fa2ff;
+  --color-solid-bg: #edebe6;
+  --color-solid-fg: #0e0f12;
+  color-scheme: dark;
+}
